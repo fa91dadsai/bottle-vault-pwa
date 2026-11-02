@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- AUTH-01: invite/reset links carry a one-time secret in the URL; never send it as Referer, even to our own host. -->
+    <meta name="referrer" content="no-referrer" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <!-- Installable web app (PWA) on phones; relative so it also works under a sub-path. -->
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <meta name="theme-color" content="#0b0b0f" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Bottle Vault" />
+    <link rel="apple-touch-icon" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; connect-src 'self' http://localhost:3007 ws://localhost:3007 https://*.supabase.co wss://*.supabase.co; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; script-src 'self'; object-src 'none'; base-uri 'none';"
+    />
+    <title>VIP Bottle Vault</title>
+    <script type="module" crossorigin src="./assets/index-BWvUiOAS.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/rolldown-runtime-QTnfLwEv.js">
+    <link rel="modulepreload" crossorigin href="./assets/vendor-icons-BPnZZ7VP.js">
+    <link rel="modulepreload" crossorigin href="./assets/vendor-react-DwtH-E4u.js">
+    <link rel="modulepreload" crossorigin href="./assets/vendor-supabase-B9nbruCH.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-kCD_O8xE.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
