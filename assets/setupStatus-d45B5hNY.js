@@ -1,0 +1,1 @@
+import{u as e}from"./platformApi-BwsXsnQ_.js";var t=3e4,n=t=>t.call(e.endpoints.setupStatus,{}).then(({data:e})=>e),r=new WeakMap;function i(e,i=!1){let a=r.get(e);if(!i&&a&&Date.now()-a.at<t)return a.promise;let o=n(e),s={at:Date.now(),promise:o};return r.set(e,s),o.catch(()=>{r.get(e)===s&&r.delete(e)}),o}export{i as t};
