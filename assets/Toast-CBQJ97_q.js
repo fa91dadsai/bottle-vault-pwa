@@ -1,0 +1,1 @@
+import{t as e}from"./vendor-react-6ojekK8a.js";var t=e();function n({toasts:e}){return e.length===0?null:(0,t.jsx)(`div`,{className:`toast-container`,children:e.map(e=>(0,t.jsx)(`div`,{className:`toast ${e.type}`,children:e.message},e.id))})}export{n as Toast};

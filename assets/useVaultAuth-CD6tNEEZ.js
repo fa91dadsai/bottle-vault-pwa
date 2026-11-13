@@ -1,0 +1,1 @@
+import{r as e}from"./rolldown-runtime-QTnfLwEv.js";import{vn as t}from"./vendor-icons-D2zp-BKy.js";import{t as n}from"./VaultAuthContextInstance-Co8sLT7G.js";var r=e(t(),1);function i(){let e=(0,r.useContext)(n);if(!e)throw Error(`useVaultAuth must be used within a VaultAuthProvider`);return e}export{i as t};
