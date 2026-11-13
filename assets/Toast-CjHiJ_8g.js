@@ -1,1 +1,0 @@
-import{t as e}from"./vendor-react-DwtH-E4u.js";var t=e();function n({toasts:e}){return e.length===0?null:(0,t.jsx)(`div`,{className:`toast-container`,children:e.map(e=>(0,t.jsx)(`div`,{className:`toast ${e.type}`,children:e.message},e.id))})}export{n as Toast};

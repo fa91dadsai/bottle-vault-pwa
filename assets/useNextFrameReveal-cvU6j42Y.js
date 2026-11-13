@@ -1,1 +1,0 @@
-import{r as e}from"./rolldown-runtime-QTnfLwEv.js";import{yn as t}from"./vendor-icons-BPnZZ7VP.js";var n=e(t(),1);function r(){let[e,t]=(0,n.useState)(!1);return(0,n.useEffect)(()=>{let e=window.requestAnimationFrame(()=>t(!0));return()=>window.cancelAnimationFrame(e)},[]),e}export{r as t};
