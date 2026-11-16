@@ -1,0 +1,1 @@
+import{r as e}from"./rolldown-runtime-QTnfLwEv.js";import{xn as t}from"./vendor-icons-Dtqie4vX.js";import{t as n}from"./VaultAuthContextInstance-CRdZokfX.js";import{r}from"./capabilities-2Oy-oYKu.js";var i=e(t(),1);function a(){return(0,i.useContext)(n)?.capabilities??r}export{a as t};
