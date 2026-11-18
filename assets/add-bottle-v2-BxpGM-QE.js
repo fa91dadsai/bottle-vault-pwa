@@ -1,0 +1,1 @@
+function e(e,t,n){return e?.key===t?e:{key:t,learning:{...n,eventId:crypto.randomUUID()}}}export{e as t};
