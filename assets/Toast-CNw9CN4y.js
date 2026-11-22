@@ -1,0 +1,1 @@
+import{t as e}from"./vendor-react-X7O6fZ4C.js";import{t}from"./toastLifetime-p7gM85PE.js";var n=e();function r({toasts:e}){return e.length===0?null:(0,n.jsx)(`div`,{className:`toast-container`,style:{"--toast-lifetime":`${t}ms`},children:e.map(e=>(0,n.jsx)(`div`,{className:`toast ${e.type}`,children:e.message},e.id))})}export{r as Toast};

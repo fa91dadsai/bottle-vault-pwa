@@ -1,0 +1,1 @@
+import{t as e}from"./vendor-react-X7O6fZ4C.js";var t=e();function n(){return(0,t.jsxs)(`small`,{className:`app-version`,children:[`Version `,`2.0.2`]})}export{n as t};

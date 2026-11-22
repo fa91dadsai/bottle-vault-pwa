@@ -1,0 +1,1 @@
+import{t as e}from"./vendor-react-X7O6fZ4C.js";var t=e();function n(){return(0,t.jsx)(`p`,{style:{padding:24},children:`Preview is not available in this build.`})}export{n as AddBottleV2Playground,n as default};
